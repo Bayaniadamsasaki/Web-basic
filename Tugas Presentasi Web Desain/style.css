@@ -1,0 +1,241 @@
+/* Responsive Desktop*/
+@media (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  section {
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e0036;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  /*-------Halaman ke 1-------*/
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo-bar {
+    max-width: 50px;
+    position: relative;
+  }
+  
+  header .judul {
+    position: absolute;
+    color: #ffffff;
+    font-size: 35px;
+    margin-left: 70px;
+    margin-top: -2px;
+    text-transform: uppercase;
+    font-family: viga;
+  }
+  
+  header ul {
+    position: relative;
+    display: flex;
+    margin-left: 60%;
+  }
+  
+  header ul li {
+    list-style: none;
+  }
+  
+  header ul li a {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    margin: 40px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  header ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: #9340ff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+  }
+  
+  header ul li a:hover::after{
+    width: 100%;
+  }
+  
+  .textbox a {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content .textbox {
+    position: relative;
+    width: 60%;
+  }
+  
+  .content .textbox h2 {
+    color: #9340ff;
+    font-size: 5em;
+    font-weight: 780;
+    margin-top: -250px;
+    margin-bottom: 20px;
+    line-height: 80px;
+    font-family: Viga;
+  }
+  
+  .content .textbox h2 span {
+    font-size: 2em;
+  }
+  
+  .content .textbox p {
+    color: #ffffff;
+  }
+  
+  .content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #9340ff;
+    border-radius: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .content .imgbox {
+    margin: 40px;
+    display: flex;
+    padding-right: 60px;
+    justify-content: flex-end;
+    margin-top: 50px;
+  }
+  
+  .content .imgbox img {
+    max-width: 700px;
+  }
+  
+  /*-----Halaman ke 2-4------*/
+  .texthal2 {
+    position: relative;
+    margin-left: 35%;
+    justify-content: center;
+    align-items: center;
+    background: #0e0036;
+  }
+  
+  .texthal2 h2{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .texthal2 h2 span {
+    font-weight: 700;
+    color: #9340ff;
+    font-family: viga;
+  }
+  
+  .texthal2 p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .texthal2 h2 space {
+    margin-left: 40px;
+  }
+  
+  .texthal2 p space{
+    margin-left: -130px;
+    padding-top: 20px;
+  }
+  
+  .tengah {
+    margin-left: 270px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .kiri {
+    margin-left: -37px;
+  }
+  
+  /*-----Halaman ke 3-4-----*/
+  .tebal {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 0;
+    margin-right: 30%;
+    word-spacing: 3px;
+  }
+  
+  .kecil {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: auto;
+  }
+  
+  /*-----Footer-----*/
+  .footer {
+    position: relative;
+    margin-left: 70%; 
+    margin-top: -100px;
+  }
+  
+  .footer-logo {
+    position: relative;
+    max-width: 100px;
+    margin-top: 250px;
+  }
+  
+  .flunder{
+    position: relative;
+    display: flex;
+    color: #ffffff ;
+    margin-left: 100px;
+    margin-top: -70px;
+    font-size: 35px;
+    font-family: viga;
+  }
+  
+  .logo-bar{
+    max-width: 750px;
+    margin-left: 42%;
+  
+  }
+  
+  .sosial-media-icon a {
+  
+    color: #ffffff;
+    font-size: 2rem;
+    margin-left: 15px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+  } 
+
+
+}
